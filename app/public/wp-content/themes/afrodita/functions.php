@@ -20,7 +20,8 @@ add_action('after_setup_theme', 'afrodita_setup' );
 // Menus de navegacion, agregar mas utilizando el arreglo
 function afrodita_menus() {
     register_nav_menus(array(
-       'menu-principal' =>  __( 'Menu Principal', 'afrodita')
+       'menu-principal' =>  __( 'Menu Principal', 'afrodita'),
+       'redes-sociales' => 'Redes Sociales'
     ));
 }
 
@@ -59,6 +60,14 @@ function afrodita_widgets() {
     register_sidebar(array(
         'name' => 'Sidebar 2',
         'id' => 'sidebar_2',
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="text-center texto-primario">',
+        'after_title' => '</h3>'
+    ));
+    register_sidebar(array(
+        'name' => 'Sidebar 3',
+        'id' => 'sidebar_3',
         'before_widget' => '<div class="widget">',
         'after_widget' => '</div>',
         'before_title' => '<h3 class="text-center texto-primario">',

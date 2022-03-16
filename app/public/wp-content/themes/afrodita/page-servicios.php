@@ -2,9 +2,9 @@
 
         <main class="contenedor pagina seccion no-sidebar">
                 <div class="text-center">
-                 <?php get_template_part('template-parts/paginas'); ?>
+                        <?php get_template_part('template-parts/paginas');?>
 
-                 <?php afrodita_lista_clases(); ?>
+                        <?php afrodita_lista_clases(); ?>
                 </div>
 
         </main>       

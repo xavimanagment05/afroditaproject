@@ -345,3 +345,737 @@ Stack trace:
 #6 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
 #7 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin-ajax.php(187): do_action('wp_ajax_duplica...')
 #8 {main}
+[11-Sep-2021 22:57:48 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Sep-2021 22:57:48 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Sep-2021 22:57:48 UTC] PHP Stack trace:
+[11-Sep-2021 22:57:48 UTC] PHP Stack trace:
+[11-Sep-2021 22:57:48 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Sep-2021 22:57:48 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Sep-2021 22:57:48 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Sep-2021 22:57:48 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Sep-2021 22:57:48 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Sep-2021 22:57:48 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Sep-2021 22:57:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Sep-2021 22:57:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Sep-2021 22:57:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Sep-2021 22:57:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Sep-2021 22:57:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Sep-2021 22:57:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Sep-2021 22:57:48 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[11-Sep-2021 22:57:48 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[11-Sep-2021 22:57:48 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[11-Sep-2021 22:57:48 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[11-Sep-2021 22:57:48 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[11-Sep-2021 22:57:48 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[11-Sep-2021 22:57:48 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  13. User_Command->list_() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  13. Core_Command->check_update() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  14. get_users() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php:165
+[11-Sep-2021 22:57:48 UTC] PHP  14. Core_Command->get_updates() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:77
+[11-Sep-2021 22:57:48 UTC] PHP  15. WP_User_Query->__construct() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\user.php:763
+[11-Sep-2021 22:57:48 UTC] PHP  15. wp_version_check() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[11-Sep-2021 22:57:48 UTC] PHP  16. WP_User_Query->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-user-query.php:78
+[11-Sep-2021 22:57:48 UTC] PHP  16. set_site_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\update.php:74
+[11-Sep-2021 22:57:48 UTC] PHP  17. wpdb->get_col() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-user-query.php:619
+[11-Sep-2021 22:57:48 UTC] PHP  17. update_site_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:2009
+[11-Sep-2021 22:57:48 UTC] PHP  18. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2657
+[11-Sep-2021 22:57:48 UTC] PHP  18. update_network_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1341
+[11-Sep-2021 22:57:48 UTC] PHP  19. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Sep-2021 22:57:48 UTC] PHP  19. update_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1771
+[11-Sep-2021 22:57:48 UTC] PHP  20. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Sep-2021 22:57:48 UTC] PHP  20. wpdb->update() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:487
+[11-Sep-2021 22:57:48 UTC] PHP  21. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2360
+[11-Sep-2021 22:57:48 UTC] PHP  22. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Sep-2021 22:57:48 UTC] PHP  23. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Sep-2021 22:57:48 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Sep-2021 22:57:48 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Sep-2021 22:57:48 UTC] PHP Stack trace:
+[11-Sep-2021 22:57:48 UTC] PHP Stack trace:
+[11-Sep-2021 22:57:48 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Sep-2021 22:57:48 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Sep-2021 22:57:48 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Sep-2021 22:57:48 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Sep-2021 22:57:48 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Sep-2021 22:57:48 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Sep-2021 22:57:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Sep-2021 22:57:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Sep-2021 22:57:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Sep-2021 22:57:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Sep-2021 22:57:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Sep-2021 22:57:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Sep-2021 22:57:48 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[11-Sep-2021 22:57:48 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[11-Sep-2021 22:57:48 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[11-Sep-2021 22:57:48 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[11-Sep-2021 22:57:48 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[11-Sep-2021 22:57:48 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[11-Sep-2021 22:57:48 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[11-Sep-2021 22:57:48 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  13. User_Command->list_() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  13. Core_Command->check_update() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[11-Sep-2021 22:57:48 UTC] PHP  14. get_users() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php:165
+[11-Sep-2021 22:57:48 UTC] PHP  14. Core_Command->get_updates() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:77
+[11-Sep-2021 22:57:48 UTC] PHP  15. WP_User_Query->__construct() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\user.php:763
+[11-Sep-2021 22:57:48 UTC] PHP  15. wp_version_check() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[11-Sep-2021 22:57:48 UTC] PHP  16. WP_User_Query->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-user-query.php:78
+[11-Sep-2021 22:57:48 UTC] PHP  16. set_site_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\update.php:74
+[11-Sep-2021 22:57:48 UTC] PHP  17. wpdb->get_col() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-user-query.php:619
+[11-Sep-2021 22:57:48 UTC] PHP  17. update_site_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:2009
+[11-Sep-2021 22:57:48 UTC] PHP  18. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2657
+[11-Sep-2021 22:57:48 UTC] PHP  18. update_network_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1341
+[11-Sep-2021 22:57:48 UTC] PHP  19. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Sep-2021 22:57:48 UTC] PHP  19. update_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1771
+[11-Sep-2021 22:57:48 UTC] PHP  20. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Sep-2021 22:57:48 UTC] PHP  20. wpdb->update() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:487
+[11-Sep-2021 22:57:48 UTC] PHP  21. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2360
+[11-Sep-2021 22:57:48 UTC] PHP  22. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Sep-2021 22:57:48 UTC] PHP  23. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:\php\ext\php_opcache.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_opcache.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:\php\ext\php_opcache.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_opcache.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:\php\ext\php_xdebug.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xdebug.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:\php\ext\php_xdebug.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xdebug.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\php\ext\php_curl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_curl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\php\ext\php_curl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_curl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\php\ext\php_gettext.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gettext.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\php\ext\php_gettext.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gettext.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_openssl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_openssl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\php\ext\php_exif.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_exif.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\php\ext\php_exif.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_exif.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\php\ext\php_ftp.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_ftp.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\php\ext\php_ftp.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_ftp.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:\php\ext\php_imap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_imap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:\php\ext\php_imap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_imap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\php\ext\php_bz2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_bz2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\php\ext\php_bz2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_bz2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\php\ext\php_mbstring.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mbstring.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\php\ext\php_mbstring.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mbstring.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:\php\ext\php_sodium.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_sodium.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:\php\ext\php_sodium.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_sodium.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:\php\ext\php_tidy.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_tidy.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:\php\ext\php_tidy.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_tidy.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:\php\ext\php_xsl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xsl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:\php\ext\php_xsl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xsl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:\php\ext\php_xmlrpc.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xmlrpc.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:\php\ext\php_xmlrpc.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xmlrpc.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:\php\ext\php_soap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_soap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:\php\ext\php_soap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_soap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\php\ext\php_mysqli.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mysqli.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\php\ext\php_pdo_mysql.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_pdo_mysql.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\php\ext\php_mysqli.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mysqli.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:06 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\php\ext\php_pdo_mysql.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_pdo_mysql.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:\php\ext\php_opcache.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_opcache.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:\php\ext\php_opcache.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_opcache.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:\php\ext\php_xdebug.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xdebug.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:\php\ext\php_xdebug.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xdebug.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\php\ext\php_curl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_curl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\php\ext\php_curl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_curl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\php\ext\php_gettext.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gettext.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\php\ext\php_gettext.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gettext.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_openssl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_openssl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\php\ext\php_exif.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_exif.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\php\ext\php_exif.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_exif.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\php\ext\php_ftp.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_ftp.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\php\ext\php_ftp.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_ftp.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:\php\ext\php_imap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_imap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:\php\ext\php_imap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_imap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\php\ext\php_bz2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_bz2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\php\ext\php_bz2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_bz2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\php\ext\php_mbstring.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mbstring.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\php\ext\php_mbstring.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mbstring.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:\php\ext\php_sodium.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_sodium.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:\php\ext\php_sodium.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_sodium.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:\php\ext\php_tidy.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_tidy.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:\php\ext\php_tidy.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_tidy.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:\php\ext\php_xsl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xsl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:\php\ext\php_xsl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xsl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:\php\ext\php_xmlrpc.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xmlrpc.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:\php\ext\php_xmlrpc.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xmlrpc.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:\php\ext\php_soap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_soap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:\php\ext\php_soap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_soap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\php\ext\php_mysqli.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mysqli.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\php\ext\php_mysqli.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mysqli.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\php\ext\php_pdo_mysql.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_pdo_mysql.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\php\ext\php_pdo_mysql.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_pdo_mysql.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:\php\ext\php_opcache.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_opcache.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:\php\ext\php_xdebug.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xdebug.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\php\ext\php_curl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_curl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:\php\ext\php_gettext.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gettext.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_openssl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:\php\ext\php_exif.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_exif.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: C:\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:\php\ext\php_ftp.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_ftp.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:\php\ext\php_imap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_imap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:\php\ext\php_bz2.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_bz2.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:\php\ext\php_mbstring.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mbstring.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:\php\ext\php_sodium.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_sodium.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:\php\ext\php_tidy.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_tidy.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:\php\ext\php_xsl.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xsl.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: C:\php\ext\php_xmlrpc.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_xmlrpc.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:\php\ext\php_soap.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_soap.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:\php\ext\php_mysqli.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_mysqli.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:\php\ext\php_pdo_mysql.dll (No se puede encontrar el módulo especificado.), C:\php\ext\php_php_pdo_mysql.dll.dll (No se puede encontrar el módulo especificado.)) in Unknown on line 0
+[10-Mar-2022 22:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1688
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php(632): wpdb->db_connect()
+#1 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\load.php(558): wpdb->__construct('root', 'root', 'local', 'localhost')
+#2 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php(124): require_wp_db()
+#3 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1271): require('C:\\Users\\Usuari...')
+#4 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1192): WP_CLI\Runner->load_wordpress()
+#5 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#6 phar://C:/Program Files (x86)/Loca in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 1688
+[10-Mar-2022 22:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1688
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php(632): wpdb->db_connect()
+#1 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\load.php(558): wpdb->__construct('root', 'root', 'local', 'localhost')
+#2 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php(124): require_wp_db()
+#3 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1271): require('C:\\Users\\Usuari...')
+#4 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1192): WP_CLI\Runner->load_wordpress()
+#5 phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#6 phar://C:/Program Files (x86)/Loca in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 1688
+[10-Mar-2022 22:11:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1688
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php(632): wpdb->db_connect()
+#1 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\load.php(558): wpdb->__construct('root', 'root', 'local', 'localhost')
+#2 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php(124): require_wp_db()
+#3 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-config.php(77): require_once('C:\\Users\\Usuari...')
+#4 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-load.php(50): require_once('C:\\Users\\Usuari...')
+#5 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Usuari...')
+#6 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Usuari...')
+#7 {main}
+  thrown in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 1688
+[10-Mar-2022 22:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1688
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php(632): wpdb->db_connect()
+#1 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\load.php(558): wpdb->__construct('root', 'root', 'local', 'localhost')
+#2 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php(124): require_wp_db()
+#3 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-config.php(77): require_once('C:\\Users\\Usuari...')
+#4 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-load.php(50): require_once('C:\\Users\\Usuari...')
+#5 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Usuari...')
+#6 C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Usuari...')
+#7 {main}
+  thrown in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 1688
+[11-Mar-2022 03:39:26 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:26 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:26 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:26 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:26 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:26 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:26 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:26 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:26 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:26 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:26 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:26 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:26 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:26 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:26 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:26 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:26 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:26 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:26 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:26 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:26 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:26 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:26 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:26 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:26 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:26 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:26 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:26 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:26 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:26 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:26 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:26 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:26 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:26 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:26 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:26 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:26 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:26 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:26 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:26 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:26 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:26 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:26 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:26 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:26 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:26 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:26 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:26 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:26 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:26 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:26 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:26 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:26 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:26 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:26 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:26 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:26 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:26 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:26 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:26 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:26 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:26 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:26 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:26 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:26 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:26 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:26 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:26 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:26 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:26 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:26 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:26 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:26 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:26 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1194
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:422
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:399
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP  13. Core_Command->check_update() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP  14. Core_Command->get_updates() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  15. wp_version_check() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1291
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP  16. get_site_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\update.php:37
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP  17. get_site_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1930
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP  18. get_network_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1292
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP  19. get_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1427
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP  20. wpdb->get_row() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:171
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP  21. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2615
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP  22. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP  23. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php on line 2056
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP Stack trace:
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP   9. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-settings.php:600
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP  10. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[11-Mar-2022 03:39:27 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP  12. _wp_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[11-Mar-2022 03:39:27 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP  13. spawn_cron() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:996
+[11-Mar-2022 03:39:27 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP  14. set_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\cron.php:886
+[11-Mar-2022 03:39:27 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP  15. add_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:933
+[11-Mar-2022 03:39:27 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1194
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP  16. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:628
+[11-Mar-2022 03:39:27 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:422
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  17. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:399
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP  18. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[11-Mar-2022 03:39:27 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[11-Mar-2022 03:39:27 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[11-Mar-2022 03:39:27 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[11-Mar-2022 03:39:27 UTC] PHP  13. Core_Command->check_update() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[11-Mar-2022 03:39:27 UTC] PHP  14. Core_Command->get_updates() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[11-Mar-2022 03:39:27 UTC] PHP  15. wp_version_check() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1291
+[11-Mar-2022 03:39:27 UTC] PHP  16. get_site_transient() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\update.php:37
+[11-Mar-2022 03:39:27 UTC] PHP  17. get_site_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1930
+[11-Mar-2022 03:39:27 UTC] PHP  18. get_network_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1292
+[11-Mar-2022 03:39:27 UTC] PHP  19. get_option() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:1427
+[11-Mar-2022 03:39:27 UTC] PHP  20. wpdb->get_row() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\option.php:171
+[11-Mar-2022 03:39:27 UTC] PHP  21. wpdb->query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2615
+[11-Mar-2022 03:39:27 UTC] PHP  22. wpdb->_do_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:1945
+[11-Mar-2022 03:39:27 UTC] PHP  23. mysqli_query() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\wp-db.php:2056
+[16-Mar-2022 19:56:34 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-content\themes\afrodita\author.php on line 9
+[16-Mar-2022 19:56:51 UTC] PHP Parse error:  syntax error, unexpected 'vardump' (T_STRING), expecting ',' or ';' in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-content\themes\afrodita\author.php on line 9
+[16-Mar-2022 19:57:14 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-content\themes\afrodita\author.php on line 9
+[16-Mar-2022 19:57:37 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-content\themes\afrodita\author.php on line 9
+[16-Mar-2022 20:10:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:10:38 UTC] PHP Stack trace:
+[16-Mar-2022 20:10:38 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:10:38 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:10:38 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:10:38 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:10:38 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:10:38 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:10:38 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:10:38 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:10:38 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:10:38 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:10:38 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:10:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:10:38 UTC] PHP Stack trace:
+[16-Mar-2022 20:10:38 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:10:38 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:10:38 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:10:38 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:10:38 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:10:38 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:10:38 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:10:38 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:10:38 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:10:38 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:10:38 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:10:38 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:12:21 UTC] PHP Stack trace:
+[16-Mar-2022 20:12:21 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:12:21 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:12:21 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:12:21 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:12:21 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:12:21 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:12:21 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:12:21 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:12:21 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:12:21 UTC] PHP Stack trace:
+[16-Mar-2022 20:12:21 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:12:21 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:12:21 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:12:21 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:12:21 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:12:21 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:12:21 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:12:21 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:12:21 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:12:21 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:12:21 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:18:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:18:53 UTC] PHP Stack trace:
+[16-Mar-2022 20:18:53 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:18:53 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:18:53 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:18:53 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:18:53 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:18:53 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:18:53 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:18:53 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:18:53 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:18:53 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:18:53 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:18:53 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:18:53 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:18:53 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:41:43 UTC] PHP Stack trace:
+[16-Mar-2022 20:41:43 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:41:43 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:41:43 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:41:43 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:41:43 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:41:43 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:41:43 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:41:43 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:41:43 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:41:43 UTC] PHP Stack trace:
+[16-Mar-2022 20:41:43 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:41:43 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:41:43 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:41:43 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:41:43 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:41:43 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:41:43 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:41:43 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:41:43 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:41:43 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:41:43 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:45:39 UTC] PHP Stack trace:
+[16-Mar-2022 20:45:39 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:45:39 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:45:39 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:45:39 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:45:39 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:45:39 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:45:39 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:45:39 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:45:39 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 20:45:39 UTC] PHP Stack trace:
+[16-Mar-2022 20:45:39 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 20:45:39 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 20:45:39 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 20:45:39 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:45:39 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 20:45:39 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 20:45:39 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 20:45:39 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 20:45:39 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 20:45:39 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 20:45:39 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:29:34 UTC] PHP Stack trace:
+[16-Mar-2022 21:29:34 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:29:34 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:29:34 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:29:34 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:34 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:34 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:29:34 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:29:34 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:29:34 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:34 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:34 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:29:34 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:29:34 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:34 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:29:35 UTC] PHP Stack trace:
+[16-Mar-2022 21:29:35 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:29:35 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:29:35 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:29:35 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:35 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:35 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:29:35 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:29:35 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:29:35 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:35 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:29:35 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:29:35 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:29:35 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:29:35 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:30:12 UTC] PHP Stack trace:
+[16-Mar-2022 21:30:12 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:30:12 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:30:12 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:30:12 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:12 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:12 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:30:12 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:30:12 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:30:12 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:12 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:12 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:30:12 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:30:12 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:12 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:30:13 UTC] PHP Stack trace:
+[16-Mar-2022 21:30:13 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:30:13 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:30:13 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:30:13 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:13 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:13 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:30:13 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:30:13 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:30:13 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:13 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:30:13 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:30:13 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:30:13 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:30:13 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:34:00 UTC] PHP Stack trace:
+[16-Mar-2022 21:34:00 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:34:00 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:34:00 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:34:00 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:00 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:00 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:00 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:34:00 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:34:00 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:00 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:00 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:00 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:34:00 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:00 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:34:01 UTC] PHP Stack trace:
+[16-Mar-2022 21:34:01 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:34:01 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:34:01 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:34:01 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:01 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:01 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:01 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:34:01 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:34:01 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:01 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:01 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:01 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:34:01 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:01 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'duplicator_global_scripts' not found or invalid function name in C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php on line 303
+[16-Mar-2022 21:34:04 UTC] PHP Stack trace:
+[16-Mar-2022 21:34:04 UTC] PHP   1. {main}() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:0
+[16-Mar-2022 21:34:04 UTC] PHP   2. require_once() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\widgets.php:10
+[16-Mar-2022 21:34:04 UTC] PHP   3. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-admin\admin.php:175
+[16-Mar-2022 21:34:04 UTC] PHP   4. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:04 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:04 UTC] PHP   6. handle_legacy_widget_preview_iframe() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:04 UTC] PHP   7. wp_head() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\blocks\legacy-widget.php:104
+[16-Mar-2022 21:34:04 UTC] PHP   8. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\general-template.php:3015
+[16-Mar-2022 21:34:04 UTC] PHP   9. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:04 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327
+[16-Mar-2022 21:34:04 UTC] PHP  11. wp_enqueue_scripts() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:303
+[16-Mar-2022 21:34:04 UTC] PHP  12. do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\script-loader.php:2083
+[16-Mar-2022 21:34:04 UTC] PHP  13. WP_Hook->do_action() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\plugin.php:470
+[16-Mar-2022 21:34:04 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\Usuario\Local Sites\afrodita\app\public\wp-includes\class-wp-hook.php:327

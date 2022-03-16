@@ -12,7 +12,7 @@
     <div class="contenedor">
         <div class="barra-navegacion">
             <div class="logo">
-                <img src="<?php echo get_template_directory_uri() ?>/img/indio.png" alt="logo sitio" width="80">
+                <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="logo sitio" width="">
             </div>
 
             <?php 
@@ -22,7 +22,19 @@
                     'container_class' => 'menu-principal'
                 );
                 wp_nav_menu($args);
-            ?>    
+            ?>
+            <div class="redes sociales">
+                    <?php 
+                        $args = array(
+                            'theme_location' => 'redes-sociales',
+                            'container' =>  'nav',
+                            'container_class' => 'sociales',
+                            'link_before' => '<span class="sr-text">',
+                            'link_after' => '</span>'
+                        );
+                        wp_nav_menu($args);
+                    ?>
+            </div>    
         </div>
     </div>
 </header>

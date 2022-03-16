@@ -44,13 +44,13 @@
 
 <section class="clases">
     <div class="contenedor seccion">
-        <h2 class="text-left texto-primario" >Nuestros Servicios</h2>
+        <h2 class="text-left texto-primario" >Nuestro Menu</h2>
 
         <?php afrodita_lista_clases(4); ?>
 
         <div class="contenedor-boton">
             <a href="<?php echo esc_url( get_permalink( get_page_by_title('Servicios') ) ); ?>"    class="boton boton-primario">
-                Ver Todos los Servicios
+                Ver todos los productos
             </a>
         </div>
     </div>
@@ -59,7 +59,7 @@
 <section class="instructores">
     <div class="contenedor seccion">
         <h2 class="text-left texto-primario">Trabajamos con: </h2>
-        <p class="text-left">Entidades espirituales del alto y bajo mundo astral segun el caso en el que necesites ayuda. </p>
+        <p class="text-left">Las mejores delicias en arroz, postres, sopas y nuestra especialidad los frijoles</p>
 
         <ul class="listado-instructores">
             <?php 
